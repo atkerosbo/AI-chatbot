@@ -1,0 +1,23 @@
+{"intents":[
+    {"tag": "greetings",
+    "patterns": ["Hello!","Greetings","Hi","Whats up", "how is it going?"],
+    "responses":["Hello!", "How can I assist You?", "Hey!"]},
+
+    {"tag": "goodbye",
+    "patterns": ["Bye Bye!","have a nice day","bye","Until next time", "farewell"],
+    "responses":["Goodbye!", "Have a nice day", "Bye!"]},
+
+    {"tag": "shop",
+    "patterns": ["What are you selling?","products on sale?","is this a fashion store?"],
+    "responses":["Women clothing", "Hand knited womens clothing", "Knitted dresses and tshirts for women"]},
+
+    
+    {"tag": "workhours",
+    "patterns": ["When are you open?","Can i order online?","is this shop open?"],
+    "responses":["Yes the shop is open, You can order everything online", "24/7", "Yess You can order now!"]},
+
+    
+    {"tag": "name",
+    "patterns": ["WHAT IS YOUR NAME","who are you?"],
+    "responses":["My name is Ivko chatbot"]}
+]}
